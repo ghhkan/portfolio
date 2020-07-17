@@ -229,6 +229,57 @@ h1{
 }
 
 
+h3{
+	font-size: 3rem;
+	line-height: 2.7rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  letter-spacing: -1px;
+	color: white;
+	text-align: center;
+}
+
+.progress{
+	margin-top: 150px;
+	width: 100%;
+	height: 550px;
+	background-color: none;
+}
+
+.step-title{
+	font-size: 4.6rem;
+	line-height: 3.6rem;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 900;
+	text-align: center;
+}
+
+.content2{
+	margin: 20px auto;
+	padding: 10px 10px;
+	max-width: 1000px;
+	height: auto;
+	background-color: none;
+}
+
+.quote{
+	padding-top: 200px;
+	padding-bottom:200px;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-family: 'EB Garamond', serif;
+	font-size: 50px;
+}
+
+.content3{
+	margin: 20px auto;
+	padding: 10px 10px;
+	max-width: 1000px;
+	height: auto;
+	background-color: none;
+}
+
 .x1{
 	background-color: none;
 	width: 100px;
@@ -301,7 +352,7 @@ h1{
 
 
 	.content{
-		max-width: 90%;
+		max-width: 100%;
 		height: 400px;
 		background-color: none;
 	}
@@ -312,8 +363,8 @@ h1{
 	}
 
 	.content2{
-		max-width: 90%;
-		height: 1000px;
+		max-width: 100%;
+		height: auto;
 		background-color: none;
 	}
 
@@ -322,6 +373,11 @@ h1{
 		height: 2000px;
 	}
 
+	.content3{
+		max-width: 100%;
+		height: auto;
+		background-color: none;
+	}
 }
 
 
