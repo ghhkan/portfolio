@@ -208,25 +208,15 @@ h1{
 	background-repeat: no-repeat;
 }
 
-.content2{
-	margin: 20px auto;
-	padding: 10px 10px;
-	max-width: 1000px;
-	height: 500px;
-	background-color: none;
-}
 
-
-.layout1{
-	margin-top: 30px;
+.progress{
+	margin-top: 150px;
 	width: 100%;
-	height: 5000px;
-	background-image: url("img/web.png");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+	height: 550px;
 	background-color: none;
 }
+
+
 
 h3{
 	font-size: 3rem;
@@ -236,13 +226,6 @@ h3{
   letter-spacing: -1px;
 	color: white;
 	text-align: center;
-}
-
-.progress{
-	margin-top: 150px;
-	width: 100%;
-	height: 550px;
-	background-color: none;
 }
 
 .step-title{
@@ -271,6 +254,19 @@ h3{
 	font-size: 50px;
 }
 
+.layout1{
+	margin-top: 30px;
+	width: 100%;
+	height: 5000px;
+	background-image: url("img/web.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: none;
+}
+
+
+
 .content3{
 	margin: 20px auto;
 	padding: 10px 10px;
@@ -278,6 +274,23 @@ h3{
 	height: auto;
 	background-color: none;
 }
+
+/*.column{
+	float: left;
+	width: 50%;
+	height: 800px;
+	text-align: center;
+
+}
+
+.row:after{
+	content: "";
+	display: table;
+	clear: both;
+}*/
+
+
+
 
 .x1{
 	background-color: none;
@@ -361,6 +374,11 @@ h3{
 		line-height: 3.2rem;
 	}
 
+	.progress{
+		width: 90%;
+		height: 1250px;
+	}
+
 	.content2{
 		max-width: 100%;
 		height: auto;
@@ -368,16 +386,30 @@ h3{
 	}
 
 	.layout1{
-		width: 90%;
+		width: 100%;
 		height: 2000px;
 	}
-	
+
+
+
 	.content3{
 		max-width: 100%;
 		height: auto;
 		background-color: none;
 	}
 
+}
+
+@media screen and (max-width: 600px){
+	.column{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.column{
+		width: 100%;
+	}
 }
 
 
